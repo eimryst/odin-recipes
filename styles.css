@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px;
+  padding: 24px;
+}
+
+.contents {
+  margin: 24px;
+  outline: black solid 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.list {
+  margin-left: 40px;
+  color: inherit;
+  padding: 10px;
+  text-decoration: none;
+}
